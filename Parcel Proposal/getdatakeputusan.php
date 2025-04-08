@@ -16,7 +16,6 @@ $pt_penerima = $_REQUEST['pt_penerima_filter'] ?? "";
 $keputusan = $_REQUEST['keputusan_filter'] ?? "";
 
 $getUserEmail = isset($_POST['useremail']) ? $_POST['useremail'] : '';
-// $getUserEmail = 'jayadi@compnet.co.id';
 
     if($no_parcel) {
         $where[] = "no_parcel LIKE '%" . $no_parcel . "%'";
