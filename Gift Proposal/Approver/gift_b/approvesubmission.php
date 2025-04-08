@@ -87,7 +87,6 @@ if ($allApproved) {
     // EMAIL
     if($emailInpputer == $emailInpputed){
         $to = $emailInpputer;
-        // $to = 'ricky.krisdianto@compnet.co.id';
         $cc = '';
         $bcc= '';
 
@@ -113,7 +112,6 @@ if ($allApproved) {
 
     } else {
         $to = $emailInpputer;
-        // $to = 'ricky.krisdianto@compnet.co.id';
         $cc = '';
         $bcc= '';
     
@@ -139,7 +137,6 @@ if ($allApproved) {
 
 
         $to = $emailInpputed;
-        // $to = 'ricky.krisdianto@compnet.co.id';
         $cc = '';
         $bcc= '';
     
