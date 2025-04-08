@@ -137,7 +137,6 @@ $emailITS = "ria.romasari@compnet.co.id, heri@compnet.co.id, tito.tri@compnet.co
 
 // Email Notifikasi
 if ($quePengirim && $quePenerima && $queParcel) {
-    // $to = "jayadi@compnet.co.id";
     $to = $emailITS;
     $cc = "";
     $bcc = "";
