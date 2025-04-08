@@ -53,7 +53,6 @@ $note = $_REQUEST['note_keputusan_detail'] ?? "";
 
     // Email Notifikasi
     if($queData){
-        // $to = "reffi@compnet.co.id";
         $to = $emailITS;
         $cc = "";                
         $bcc = "";
