@@ -223,19 +223,6 @@ if($queApproverA){
     //         $name_approvers[] = $row['approver_name'];
     //     }
     // }
-    
-    // $to = implode(',', $email_approvers);
-    // $to = "muhammad.fatih@compnet.co.id,ricky.krisdianto@compnet.co.id";
-    // $email_test = [
-    //     "muhammad.fatih@compnet.co.id",
-    //     "ricky.krisdianto@compnet.co.id"
-    // ];
-    // $name_test = [
-    //     "Muhammad Fatih Raharjo",
-    //     "Ricky Krisdianto"
-    // ];
-
-    // $to = $managerEmail;
 
     $to = 'muhammad.fatih@compnet.co.id';
 
