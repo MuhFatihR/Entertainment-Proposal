@@ -62,8 +62,7 @@ if($dataNextLevel){
     $nama_nextLevel = $dataNextLevel['approver_name'];
     $email_nextLevel = $dataNextLevel['approver_email'];
 
-    // $to = $email_nextLevel;
-    $to = 'muhammad.fatih@compnet.co.id';
+    $to = $email_nextLevel;
 
     $cc = '';
     $bcc= '';
@@ -128,8 +127,7 @@ if($dataNextLevel){
         // ======================================================================================================================================================== \\
 
         if($id_assigner !== $id_inputter){
-            $to = 'muhammad.fatih@compnet.co.id';
-            // $to = $dataEmailInputter['email'];
+            $to = $dataEmailInputter['email'];
 
             $cc = '';
             $bcc= '';
