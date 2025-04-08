@@ -15,7 +15,6 @@ $tanggal_diberikan = $_REQUEST['tanggal_diberikan_filter'] ?? "";
 $status_approval = $_REQUEST['status_approval_filter'] ?? "";
 
 $email = isset($_POST['useremail']) ? $_POST['useremail'] : '';
-// $email = 'jayadi@compnet.co.id';
 
 $where = [];
 if($no_pengajuan) {
