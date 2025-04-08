@@ -171,9 +171,8 @@ if($id_pengusul !== $id_inputter){
     $resultInputter = $queNamaInputter->fetch_assoc();
 
     $nama_inputter = $resultInputter['full_name'];
-
-    $to = 'muhammad.fatih@compnet.co.id';
-    // $to = $email_pengusul;
+  
+    $to = $email_pengusul;
 
         $cc = '';
         $bcc= '';
@@ -270,8 +269,7 @@ $insertApproverB = "INSERT INTO approval_b (id_pengajuan_b, approver_name_b, app
                             VALUES ('" . $idPengajuanFormB . "', '" . $managerName . "', '1', '" . $managerTitle . "', '-', 'Waiting Approval', '" . $manager_id . "', '" . $managerEmail . "', '0000-00-00')";
 $queApproverB = $dbeta->query($insertApproverB);
 
-$to = 'muhammad.fatih@compnet.co.id';
-// $to = $managerEmail;
+$to = $managerEmail;
 
 $cc = '';
 $bcc= '';
