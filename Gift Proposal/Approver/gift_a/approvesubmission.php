@@ -98,7 +98,6 @@ if ($allApproved) {
     // EMAIL
     if($emailInpputer == $emailInpputed){
         $to = $emailInpputer;
-        // $to = 'ricky.krisdianto@compnet.co.id';
         $cc = '';
         $bcc= '';
     
@@ -123,7 +122,6 @@ if ($allApproved) {
         kirimemail_noreply_cl($to, $subject, $message, $cc, $bcc, $attachment);
     } else {
         $to = $emailInpputer;
-        // $to = 'ricky.krisdianto@compnet.co.id';
         $cc = '';
         $bcc= '';
     
@@ -149,7 +147,6 @@ if ($allApproved) {
 
         // Inputted 
         $to = $emailInpputed;
-        // $to = 'ricky.krisdianto@compnet.co.id';
         $cc = '';
         $bcc= '';
     
