@@ -15,8 +15,6 @@ $tanggal_diberikan = $_REQUEST['tanggal_diberikan_filter'] ?? "";
 $status_pengajuan = $_REQUEST['status_pengajuan_filter'] ?? "";
 
 $getUserEmail = isset($_POST['useremail']) ? $_POST['useremail'] : '';
-// $getUserEmail = 'pieter@compnet.co.id';
-
 
 $where = [];
 if ($no_pengajuan) {
